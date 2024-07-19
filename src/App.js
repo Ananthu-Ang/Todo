@@ -13,6 +13,8 @@ import { UseProvider } from "./Usercontext";
 import Todo2 from "./Todo2";
 import { Route,Routes } from "react-router-dom";
 import Profile from "./Pages/Profile";
+import NotFound from "./Pages/NotFound";
+import Settings from "./Pages/Settings";
 // import img from "./clg.jpg";
 
 // export const myContext = createContext()
@@ -23,8 +25,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Todo2/>}/>
+        <Route path="/" element={<Todo2/>}> 
         <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/Settings" element={<Settings/>}/>
+        </Route>
+        <Route path="*" element={<NotFound/>}/>
         </Routes>
     </div>
   );
