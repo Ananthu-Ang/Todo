@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+  
+  }
+  
+  
+  .logo a{
+    font-size: 30px; font-weight: 600; color: white;
+  }
+  /* li{
+    
+    display: inline-block;
+    font-size: 20px;
+  }
+  li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px; font-size: 25px;
+  } */
+  h4 {
+    font-size: 25px;
+    
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+    justify-content: space-between
+  }
